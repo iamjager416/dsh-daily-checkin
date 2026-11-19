@@ -20,7 +20,7 @@ import { nteSendCode, nteVerifyLogin, nteSignAccount, pickNteAccount } from "./n
 import { kuroSendSms, kuroLogin } from "./kuroLogin.js";
 import { installRoutes, uninstallRoutes } from "./webRoutes.js";
 
-export const name = "dsh-checkin";
+export const name = "dsh-daily-checkin";
 export const inject = ["tools"];
 export { Config } from "./config.js";
 

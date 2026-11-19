@@ -8,7 +8,7 @@
  * @module dsh-checkin/client
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-checkin',
+  id: 'dsh-daily-checkin',
 
   factory(require) {
     const React = require('react')

@@ -1,13 +1,33 @@
 {
-  "name": "dsh-checkin",
-  "version": "0.1.1",
-  "private": true,
-  "description": "每天自动签到：库街区（鸣潮/战双）、森空岛（明日方舟/终末地）、塔吉多（异环）；在设置里用手机号验证码绑定，签完可推送到 QQ。",
+  "name": "dsh-daily-checkin",
+  "version": "0.2.0",
   "type": "module",
+  "description": "每天自动签到：库街区（鸣潮/战双）、森空岛（明日方舟/终末地）、塔吉多（异环）；在设置里用手机号验证码绑定，签完可推送到 QQ。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "checkin",
+    "kuro",
+    "skland",
+    "nte",
+    "qq"
+  ],
+  "license": "MIT",
+  "author": "iamjager416",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamjager416/dsh-daily-checkin.git"
+  },
+  "homepage": "https://github.com/iamjager416/dsh-daily-checkin#readme",
+  "bugs": {
+    "url": "https://github.com/iamjager416/dsh-daily-checkin/issues"
+  },
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
     "./client": "./client/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
     "./package.json": "./package.json"
   },
   "engines": {
@@ -28,7 +48,10 @@
     "src",
     "client",
     "cordis.patch.yml",
-    "README.md",
-    "docs"
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "LICENSE",
+    "README.md"
   ]
 }

@@ -1,0 +1,6 @@
+# dsh-checkin bundle layer: inserts the plugin row into the profile.
+#
+# 凭据在 ~/.dsh/checkin/credentials.json（不经过 profile 配置，避免进日志/备份）。
+- insert:
+    - id: dsh-checkin
+      name: dsh-checkin
